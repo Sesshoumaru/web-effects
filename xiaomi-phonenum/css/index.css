@@ -1,0 +1,26 @@
+.phone{
+    width: 512px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+    margin:50px auto;
+}
+
+.phone span{
+    width: 100%;
+    height: 190px;
+    position: absolute;
+}
+
+.phone #up{
+    top: 0;
+}
+
+.phone #down{
+    bottom: 0;
+}
+
+.phone #image{
+    position: absolute;
+    top: 0;
+}
