@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    vertical-align: top;
+}
+.box{
+    width: 600px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.box ul{
+    width: 400%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box li{
+    float: left;
+}

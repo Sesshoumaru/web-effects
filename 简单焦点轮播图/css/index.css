@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    vertical-align: top;
+}
+.silder{
+    position: relative;
+    width: 490px;
+    height: 170px;
+    padding: 5px;
+    margin:100px auto;
+    border: 1px solid #cccccc;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.silder li{
+    float: left;
+}
+
+.inner ul{
+    width: 1000%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+.sequence ul{
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+}
+.sequence li{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sequence li.current{
+    background-color: orange;
+}
