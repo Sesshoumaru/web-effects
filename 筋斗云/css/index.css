@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+}
+body{
+    background-color: #000000;
+}
+
+.nav{
+    width: 800px;
+    height: 42px;
+    background: url(../images/rss.png) no-repeat right center #ffffff;
+    border-radius: 4px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.nav .cloud{
+    position: absolute;
+    width: 83px;
+    height: 42px;
+    background:url(../images/cloud.gif) no-repeat;
+}
+.nav ul{
+    position: absolute;
+}
+.nav li{
+    float: left;
+    width: 83px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    cursor: pointer;
+}
