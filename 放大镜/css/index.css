@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.magnifier{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #cccccc;
+    position: relative;
+    margin: 100px;
+}
+
+.small{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+
+.mask{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,0,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    display: none;
+}
+
+.big{
+    width: 500px;
+    height: 500px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    left: 360px;
+    top :0;
+    overflow: hidden;
+    display: none;
+}
+
+.big img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
