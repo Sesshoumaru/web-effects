@@ -1,0 +1,26 @@
+.scroll{
+    width: 600px;
+    height: 8px;
+    margin:100px;
+    background-color: #cccccc;
+    position: relative;
+}
+
+.bar{
+    width: 10px;
+    height: 22px;
+    position: absolute;
+    top: -7px;
+    background-color: #369;
+}
+
+.mask{
+    height: 100%;
+    width: 0;
+    background-color: #369;
+}
+
+.message{
+    width: 600px;
+    margin:100px;
+}
