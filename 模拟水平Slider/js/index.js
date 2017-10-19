@@ -8,7 +8,7 @@ window.onload = function () {
         var event = event || window.event;
         var leftVal = event.clientX - this.offsetLeft;
 
-        document.onmousemove = function () {
+        document.onmousemove = function (event) {
             var event = event || window.event;
             var x = event.clientX - leftVal;
             if(x<0)

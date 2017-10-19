@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    background-color: #08bf91;
+    padding: 10px;
+}
+
+.regisiter{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top :50%;
+    left: 50%;
+    margin-top: -155px;
+    margin-left:-205px;
+    box-shadow:2px 2px 2px 2px #666;
+    display: none;
+}
+
+.header{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background-color: #5bc0de;
+    cursor: move;
+    border-bottom:1px solid #cccccc;
+}
+
+.header span{
+    float: right;
+    cursor: pointer;
+}
