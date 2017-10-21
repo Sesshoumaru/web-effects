@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: top;
+}
+ul,ol{
+    list-style-type: none;
+}
+.all{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border:1px solid #cccccc;
+    margin: 100px auto;
+    position: relative;
+}
+.images{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.all ul{
+    width: 1000%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.all li{
+    float: left;
+}
+
+.all ol{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.all ol li{
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.all ol li.current{
+    background-color: yellow;
+}
