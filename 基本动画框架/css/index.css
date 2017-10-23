@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    margin: 10px;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top :100px;
+    opacity: 1;
+    position: absolute;
+    background-color: pink;
+
+}

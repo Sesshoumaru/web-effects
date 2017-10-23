@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>滑动动画</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">400</button>
+<div id="box"></div>
+</body>
+</html>
+<script>
+    var btn = document.getElementById("btn");
+    var box = document.getElementById("box");
+    var timer = null;
+    var target = 0;
+    btn.onclick = function () {
+        target = target === 0 ? 400 : 0;
+        timer = setInterval(function () {
+            var speed = (target - box.offsetLeft) / 10;
+            speed = speed > 0 ? Math.ceil(speed) : Math.floor(speed);
+            box.style.left = box.offsetLeft + speed + "px";
+
+            if (box.offsetLeft == target) {
+                clearInterval(timer);
+            }
+        }, 30);
+    };
+</script>
