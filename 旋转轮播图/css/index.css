@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: top;
+}
+
+a{
+    cursor: pointer;
+}
+
+.slider{
+    width: 1200px;
+    margin: 60px auto;
+}
+
+.slider-main{
+    position: relative;
+    height: 500px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.slider li{
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.slider li img{
+    width: 100%;
+}
+
+.arrow{
+    opacity: 0;
+    position: relative;
+    z-index: 100;
+}
+
+.prev,.next{
+    width: 76px;
+    height: 112px;
+    position: absolute;
+    top: 50%;
+    margin-top: -56px;
+    background:url(../images/prev.png) no-repeat;
+    z-index: 99;
+}
+
+.next{
+    right: 76px;
+    background-image: url(../images/next.png);
+}
