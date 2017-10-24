@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+.menu{
+    height: 25px;
+    line-height: 25px;
+    margin: 100px auto;
+    width: 310px;
+    background-color: deepskyblue;
+}
+
+.level-1{
+    width: 320px;
+}
+.level-1 li{
+    float: left;
+
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: deepskyblue;
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.level-1 .level-2{
+    display: none;
+}
+
+.level-2 li{
+    background-color: skyblue;
+}
